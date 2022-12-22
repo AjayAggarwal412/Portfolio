@@ -1,0 +1,107 @@
+.home {
+  color: white;
+  margin-top: 200px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.description {
+  color: #c4cfde;
+  margin-bottom: 10%;
+}
+
+.facebook_card {
+  height: 50px;
+  width: 55px;
+}
+
+.facebook_card:hover {
+  transition: 0.9s;
+  background-color: #ff014f;
+}
+
+.facebook {
+  margin-top: -10px;
+  height: 20px;
+  width: 20px;
+  transition: 0.5s;
+}
+
+.facebook:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.find {
+  color: #c4cfde;
+  margin-bottom: 25px;
+}
+
+.me {
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 20px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
+  margin-left: 40%;
+}
+
+@media (max-width: 430px) {
+  .home {
+    margin-top: 110px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .description {
+    margin-bottom: 8%;
+  }
+
+  .find {
+    margin-bottom: 20px;
+  }
+
+  .me {
+    display: none;
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .welcome {
+    font-size: 20px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .find {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 21px;
+  }
+
+  .me {
+    height: 230px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
