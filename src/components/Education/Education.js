@@ -43,7 +43,7 @@ const Education = () => {
         </Col>
         <Col data-aos="zoom-in-up" data-aos-duration="1000">
           <EducationCard
-            year="2016-17"
+            year="2015-16"
             grade="10th Grade"
             percent="88.32%"
             institute="Greenway Modern School"
