@@ -1,0 +1,54 @@
+.navbar-style {
+  font-size: large;
+}
+
+.logo_ {
+  margin-right: 45%;
+}
+
+.signature {
+  height: 35px;
+  width: 200px;
+}
+
+.home_,
+.about_,
+.education_,
+.skills_,
+.project_,
+.contact_ {
+  margin-right: 30px;
+}
+
+@media (max-width: 430px) {
+  .logo_ {
+    margin-right: 0px;
+  }
+
+  .signature {
+    height: 30px;
+    width: 150px;
+  }
+
+  .home_,
+  .about_,
+  .education_,
+  .skills_,
+  .project_,
+  .contact_ {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .logo_ {
+    margin-right: 0px;
+  }
+
+  .signature {
+    height: 45px;
+    width: 240px;
+  }
+}

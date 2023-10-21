@@ -1,0 +1,61 @@
+.education-card {
+  background-color: #232528;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 19px #ffffff;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.year {
+  color: #ff014f;
+}
+
+@media (min-width: 200px) and (max-width: 321px) {
+  .education-card {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .education-card {
+    box-shadow: 3px 3px 14px #ffffff;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .grade_ {
+    margin-bottom: 20px;
+  }
+
+  .institute {
+    margin-top: 20px;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .education-card {
+    box-shadow: 4px 4px 15px #ffffff;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+
+  .year {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .grade_ {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .percent {
+    font-size: 20px;
+  }
+
+  .institute {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+}
