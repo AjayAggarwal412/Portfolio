@@ -1,0 +1,98 @@
+.project {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.Project_image {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image_hover {
+  transition: 0.8s;
+}
+
+.image_hover:hover {
+  transform: scale(1.1);
+}
+
+.card-style {
+  padding: 25px;
+  color: white;
+  border-radius: 20px;
+  background-color: #232528;
+  box-shadow: 10px 5px 19px #ffffff;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.name:hover {
+  transition: 0.8s;
+  color: #ff014f;
+}
+
+@media (max-width: 430px) {
+  .project {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .Project_image {
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .card-style {
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 14px #ffffff;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 321px) {
+  .Project_image {
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .card-style {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .project {
+    margin-bottom: 40px;
+  }
+
+  .Project_image {
+    height: 370px;
+  }
+
+  .card-style {
+    padding: 30px;
+    box-shadow: 4px 4px 15px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    display: block;
+  }
+
+  .name {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}

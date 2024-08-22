@@ -1,0 +1,65 @@
+.contact-form {
+  background-color: #232528;
+  box-shadow: 5px 5px 15px #ffffff;
+  border-radius: 10px;
+  width: 200%;
+  color: #fff;
+}
+
+.form-input {
+  background-color: #191b1e;
+  border: none;
+  border-radius: 6px;
+}
+
+.form-input:focus {
+  background-color: #191b1e;
+  box-shadow: none;
+}
+
+.button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #ff014f;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 200px) and (max-width: 321px) {
+  .form-labels {
+    font-size: small;
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-form {
+    background-color: #232528;
+    box-shadow: 3px 3px 14px #fff;
+    width: 100%;
+  }
+
+  .custom-toast {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .contact-form {
+    background-color: #232528;
+    box-shadow: 3px 3px 14px #ffffff;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-labels {
+    font-size: 23px;
+  }
+}

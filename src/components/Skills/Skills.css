@@ -1,0 +1,58 @@
+.skill {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.logo_row {
+  margin-top: 8%;
+  margin-left: 65px;
+}
+
+.card-row {
+  margin-left: 5%;
+}
+
+@media (max-width: 430px) {
+  .card-row {
+    margin-left: 0;
+  }
+
+  .html {
+    margin-bottom: 40px;
+    margin-left: -15px;
+  }
+
+  .javascript {
+    margin-left: -15px;
+  }
+
+  .react {
+    margin-left: -15px;
+  }
+
+  .skill {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .logo_row {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .skill {
+    margin-bottom: 40px;
+  }
+
+  .card-row {
+    margin-left: 0;
+  }
+
+  .logo_row {
+    margin-top: 0;
+  }
+}

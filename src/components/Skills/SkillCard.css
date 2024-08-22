@@ -1,0 +1,159 @@
+.skillcard {
+  background-color: #232528;
+  width: 10rem;
+  text-align: center;
+  box-shadow: 5px 5px 16px #ffffff;
+  color: #fff;
+}
+.skillcard:hover {
+  color: #ff014f;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mongo,
+.flutter {
+  height: 50px;
+  width: 120px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.firebase {
+  height: 100px;
+  width: 160px;
+}
+
+@media (max-width: 430px) {
+  .skillcard {
+    height: 150px;
+    width: 150px;
+    box-shadow: 3px 3px 14px #ffffff;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .mongo {
+    height: 60px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .flutter {
+    height: 40px;
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .firebase {
+    height: 70px;
+    width: 140px;
+  }
+
+  .react_card {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .firebase_card {
+    margin-left: 0;
+    height: 150px;
+  }
+
+  .mongo_card {
+    margin-bottom: 40px;
+  }
+
+  .flutter_card {
+    margin-left: -15px;
+  }
+
+  .firebase_card {
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 321px) {
+  .skillcard {
+    height: 130px;
+    width: 120px;
+    box-shadow: 2px 2px 12px #ffffff;
+  }
+
+  .tech-name {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  .firebase {
+    height: 130px;
+    width: 120px;
+  }
+
+  .mongo {
+    width: 90px;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .tech-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .skillcard {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 60px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 3px 3px 14px #ffffff;
+  }
+
+  .logo {
+    height: 130px;
+    width: 130px;
+  }
+
+  .firebase {
+    height: 130px;
+    width: 250px;
+  }
+
+  .firebase_card {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .react_card {
+    margin-left: 40px;
+  }
+
+  .mongo_card {
+    margin-left: 70%;
+  }
+
+  .mongo {
+    height: 80px;
+    width: 180px;
+  }
+}
